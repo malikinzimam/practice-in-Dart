@@ -1,5 +1,5 @@
 void main() {
-  List roll = ["ali,umer,bilal,inzi"];
-  roll.add("shazeb");
-  print(roll);
+  List studentNames = ["ali,umer,bilal,inzi"];
+  studentNames.add("shahzeb");
+  print(studentNames);
 }
