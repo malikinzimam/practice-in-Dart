@@ -1,5 +1,5 @@
 void main() {
-  List studentNames = ["ali,umer,bilal,inzi"];
-  studentNames.add("shahzeb");
-  print(studentNames);
+  List number = [40, 67, 86, 10, 1, 9];
+  number.retainWhere((e) => e > 25);
+  print(number);
 }
